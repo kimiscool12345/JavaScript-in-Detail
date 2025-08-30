@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript in Detail</title>
+</head>
+
+<body>
+    <h3>The js String() method</h3>
+    <p>The String() method can convert a number to a string.</p>
+
+    <p id="number"></p>
+    <p id="string"></p>
+
+    <script>
+        var x = 70;
+        var y = 90;
+
+        // This will display the sum (number addition)
+        document.getElementById("number").innerHTML = x + y;
+
+        // This will display concatenated strings
+        document.getElementById("string").innerHTML = String(x) + String(y); 
+    </script>
+</body>
+
+</html>
